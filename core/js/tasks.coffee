@@ -88,6 +88,7 @@ showTasks = ->
     showTasks()
     $('#closeEncounter').on('click', tabcat.ui.closeEncounter)
     $('#closeEncounter').removeAttr('disabled')
+    scrollTo(0, 1)
   )
 
   tabcat.db.startSpilledDocSync()
